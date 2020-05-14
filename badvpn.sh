@@ -4,9 +4,9 @@
 
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://github.com/ForNesiaFreak/FNS/raw/master/sett/badvpn-udpgw"
+wget -O /usr/bin/badvpn-udpgw "https://github.com/idtunnel/UDPGW-SSH/raw/master/badvpn-udpgw"
 if [ "$OS" == "x86_64" ]; then
-  wget -O /usr/bin/badvpn-udpgw "https://github.com/ForNesiaFreak/FNS/raw/master/sett/badvpn-udpgw64"
+  wget -O /usr/bin/badvpn-udpgw "https://github.com/idtunnel/UDPGW-SSH/raw/master/badvpn-udpgw64"
 fi
 
 #port BadVPN 7300
