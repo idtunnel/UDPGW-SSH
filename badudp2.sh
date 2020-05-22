@@ -15,7 +15,7 @@ sed -i '$ i\screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7100' /
 #permission
 chmod +x /usr/bin/badvpn-udpgw
 chmod +x /bin/badvpn-udpgw
-chomd +x /etc/rc.d/rc.local
+chmod +x /etc/rc.d/rc.local
 
 #coba jalankan badvpn 7300
  screen -dmS udpvpn /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10
